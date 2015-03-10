@@ -4,14 +4,14 @@
 
 __author__ = 'andrei.muntean.dev@gmail.com (Andrei Muntean)'
 
-import im
+from imserverproxy import IMServerProxy
 from os import system
 from sys import argv
 from sys import platform
 
 class IMClient:
     def __init__(self, url):
-        self.server = im.IMServerProxy(url)
+        self.server = IMServerProxy(url)
         self.is_connected = False
 
     def update(self):
