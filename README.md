@@ -1,2 +1,2 @@
 # InstantMessagingClient
-Allows users to connect to a specified server and chat.
+Allows users to chat on any given server that accepts GET/POST requests.
